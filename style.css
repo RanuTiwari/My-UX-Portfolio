@@ -231,5 +231,15 @@ top: 85px;}
     margin-right: 5px;
 }
 
+
+@media (max-width: 768px) {
+    .top-cloud {
+        display: none; /* Hide top cloud on smaller screens */
+    }
+
+    .bottom-cloud {
+        display: none; /* Hide bottom cloud on smaller screens */
+    }
+}
     
 
