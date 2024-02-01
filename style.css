@@ -15,7 +15,7 @@ body{
 }    
 
 .bottom-container{ background-color: #66BFBF;
-padding: 50px 0 ;}
+padding: 50px 0 20px ;}
 
 h1{font-size: 90px;
     margin: 50px auto 0 auto;
