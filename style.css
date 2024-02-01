@@ -27,12 +27,15 @@ color: #66BFBF;
 h2{font-family: 'Montserrat', sans-serif;
 font-size: 2.5rem;
 color: #66BFBF;
-font-weight: bold;
+font-weight: 600;
 padding-bottom: 10px;
 }
 
 h3{color: #11999E;}
 
+p {
+    font-weight: 300; /* Numeric value */
+}
 .frame{
     width: 200px;
     height: 200px;
