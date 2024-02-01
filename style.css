@@ -232,14 +232,6 @@ top: 85px;}
 }
 
 
-@media (max-width: 768px) {
-    .top-cloud {
-        display: none; /* Hide top cloud on smaller screens */
-    }
 
-    .bottom-cloud {
-        display: none; /* Hide bottom cloud on smaller screens */
-    }
-}
     
 
