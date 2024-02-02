@@ -125,6 +125,12 @@ top: 85px;}
     color: #ffffff;
   }
 
+.logo {
+    width: 40px; /* Set the width of your logo */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 20px; /* Adjust the margin to create space between brand and logo */
+}
+
 
 
 /*Navigation-bar*/
