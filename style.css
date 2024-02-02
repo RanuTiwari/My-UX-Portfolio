@@ -129,7 +129,8 @@ top: 85px;}
     width: 100px; /* Set the width of your logo */
     height: auto; /* Maintain aspect ratio */
     margin-left: 40px; /* Adjust the margin to create space between brand and logo */
-    margin-right: 40px;
+    margin-right: 20px;
+    border-radius: 16px;
 }
 
 
