@@ -3,19 +3,19 @@ body{
     text-align: center;
     font-family:  sans-serif;
     color: #40514E; 
-    ;
 }
 
 .top-container{position: relative;
     padding-top: 80px;
     /*background-color: #EAF6F6;*/
-} 
+}
 
-.middle-container{margin:  0;
+.middle-container{margin:0;
 }    
 
 .bottom-container{ background-color: #66BFBF;
-padding: 50px 0 20px ;}
+padding: 50px 0 20px;
+}
 
 h1{font-size: 90px;
     margin: 50px auto 0 auto;
@@ -24,15 +24,14 @@ color: #66BFBF;
 
 }  
 
-h2{font-family: 'Montserrat', sans-serif;
+h2{font-family: sacramento, cursive;
 font-size: 2.5rem;
 color: #66BFBF;
-font-weight: 500;
+font-weight: normal;
 padding-bottom: 10px;
 }
 
 h3{color: #11999E;}
-
 
 .frame{
     width: 200px;
@@ -41,16 +40,14 @@ h3{color: #11999E;}
     overflow: hidden;
 }
 
-.intro{width: 30%;
+.intro{width: 50%;
     margin: auto;}
 
 .contact-message{ width: 40%;
 
 margin: 40px auto 60px;}    
     
-p{line-height: 2;
-
- font-family: 'Montserrat', sans-serif;}
+p{line-height: 2;}
 
 hr{ border: dotted #EAF6F6 6px;
 border-bottom: none;
@@ -66,17 +63,26 @@ a:hover{color: #EAF6F6;}
 
 .copyright{color: #EAF6F6;
 font-size: 0.75rem;
-padding: 20px o;}
+padding: 5px 0;}
       
 
-.skill-row{width: 50%;
-    margin: 100px auto 100px auto;
+.skill-row{width: 80%;
+    margin: 50px auto 50px auto;
     text-align: left;
     line-height: 1.5rem;
 
 }
-      
-    
+
+.skill-row2{width: 80%;
+  margin: 50px auto 50px auto;
+  text-align: left ;
+  line-height: 1.5rem;
+
+} 
+
+
+
+ 
 
 .bottom-cloud{position: absolute;
 left: 250px;
@@ -87,15 +93,30 @@ right:300px;
 top: 85px;}
 
 .giphy-embed1{ width: 25%;
-    height:250px;
+    height:350px;
     float: left;
-    margin-right: 30px;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+.giphy-embed2{ width: 25%;
+  height:200px;
+  float: right;
+  margin-right: 200px;
+  margin-left: 200px;
+  
+}
+.giphy-embed3{ width: 25%;
+  height:250px;
+  float: left;
+  margin-right: 200px;
+  margin-left: 200px;
 }
 
-.giphy-embed2{width: 25%;
-    height: 200px;
+.giphy-embed4{width: 25%;
+    height: 320px;
     float: right;
-    margin-left: 30px;} 
+    margin-right: 200px;
+    margin-left: 200px;}  
 
 .btn {
     background: #11cdd4;
@@ -108,10 +129,11 @@ top: 85px;}
     -moz-border-radius: 8;
     border-radius: 8px;
     font-family: 'Montserrat', sans-serif;
-    color: #ffffff;
+    color: #111111;
     font-size: 20px;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
+    color: #EAF6F6;
   }
   
   .btn:hover {
@@ -122,25 +144,31 @@ top: 85px;}
     background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
     background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
     text-decoration: none;
-    color: #ffffff;
+    color: #EAF6F6;
   }
 
-.logo {
-    width: 100px; /* Set the width of your logo */
-    height: 100px; /* Maintain aspect ratio */
-    margin-left: 0px; /* Adjust the margin to create space between brand and logo */
+  .logo{
+    width: 100px;
+    height:80px;
+    margin-left: 0px;
     margin-right: 20px;
-    border-radius: 32px; 
-}
+    border-radius: 16px;
+  }
 
 
 
 /*Navigation-bar*/
 
+.navbar-nav .nav-item{margin-right: 0;}
+
 .navbar{
     
     background-color: #66BFBF;
-    padding-bottom: 0 0 4.5rem;
+    padding: 0;
+    padding-bottom: 0 ;
+    padding-right: 0;
+   
+    
 }
 
 
@@ -148,10 +176,12 @@ top: 85px;}
     font-family: "Ubuntu";
     font-size: 1.5rem;
     font-weight: bold;
-     }
+    margin-right: 0;
+   
+}
 
 .nav-item{
-    padding: 0 16px;}
+    padding: 0 8px;}
 
 .nav-link{
     font-size: 1.2rem;
@@ -159,8 +189,26 @@ top: 85px;}
     color: aliceblue;
 }
 
+.nav-link:hover{
+  color: #11999E;
+}
 
-.navbar-nav{padding-left: 500px;}
+.navbar-nav{padding-left: 500px;
+padding-right: 0;
+}
+
+.navbar-toggler{
+  background-color: #EAF6F6 !important;
+}
+
+.navbar-toggler-icon {
+  background-color: white;
+  border: 1px solid-white;
+  max-width: 30px;
+  height: 3px;
+  margin-top: 5px;
+}
+
 
 /*Project Section*/
 .projects-section {
@@ -204,7 +252,6 @@ top: 85px;}
   }
 }
 .project {
-  overflow: hidden;
   background: #66BFBF;
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
   border-radius: 28px;
@@ -225,19 +272,25 @@ top: 85px;}
   object-fit: cover;
   border-top-right-radius: 28px;
   border-top-left-radius: 28px;
-} 
+}
 .project-title {
-  font-family: 'Montserrat', sans-serif;
+  font-family: sacramento, cursive;
   font-size: 1rem;
   text-align: center;
-  padding: 1rem;
+  padding: 2rem 0.5rem;
   color: #fff;
-
+ 
 }
 
 .footer-link i {
-    margin-right: 5px;
+  margin-right: 5px;
 }
+
+
+.close{
+  margin-left: 200px;
+}
+
 
 
 
