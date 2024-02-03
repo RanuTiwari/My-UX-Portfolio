@@ -6,12 +6,12 @@ body{
 }
 
 .top-container{position: relative;
-    padding-top: 100px;
+    padding-top: 300px;
     /*background-color: #EAF6F6;*/
 }
 
 .middle-container{margin:0;
-                  padding-top: 500px;
+                 
 }    
 
 .bottom-container{ background-color: #66BFBF;
