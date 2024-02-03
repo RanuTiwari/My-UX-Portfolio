@@ -292,3 +292,22 @@ padding-right: 0;
   margin-left: 200px;
 }
 
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .skill-row {
+    width: 80%; /* Adjust the width for smaller screens */
+    margin: 50px auto 50px auto;
+  }
+
+  .giphy-embed1,
+  .giphy-embed3,
+  .giphy-embed2,
+  .giphy-embed4 {
+    width: 100%; /* Make the giphy embeds full-width on smaller screens */
+    float: none; /* Remove float to stack them vertically */
+    margin: 0;
+    padding: 0;
+    height: auto; /* Adjust the height for smaller screens */
+  }
+}
+
