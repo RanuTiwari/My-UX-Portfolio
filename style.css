@@ -6,6 +6,7 @@ body{
 }
 
 .top-container{position: relative;
+               margin-top: 50px
     padding-top: 80px;
     /*background-color: #EAF6F6;*/
 }
@@ -161,7 +162,7 @@ top: 85px;}
 
 .navbar-nav .nav-item{margin-right: 0;}
 
-.navbar{ overflow: hidden;
+.navbar{ 
     position: fixed;
     background-color: #66BFBF;
     padding: 0;
