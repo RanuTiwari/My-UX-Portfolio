@@ -10,13 +10,12 @@ body{
     /*background-color: #EAF6F6;*/
 }
 
-.middle-container{margin-top: 50px;}
+.middle-container{margin: 0;}
                  
 }    
 
-.bottom-container{ margin-top: 50px;
-    background-color: #66BFBF;
-padding: 50px 0 20px;
+.bottom-container{   background-color: #66BFBF;
+                   padding: 50px 0 20px;}
 
 
 h1{font-size: 90px;
