@@ -163,6 +163,7 @@ top: 85px;}
 
 .navbar{
     position: fixed;
+    z-index: 1000;
     background-color: #66BFBF;
     padding: 0;
     padding-bottom: 0 ;
